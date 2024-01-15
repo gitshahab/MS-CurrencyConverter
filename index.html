@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"></link>
+    <script src="https://kit.fontawesome.com/9b635f886b.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="logo" src="./logo.png" alt="logo-svg">
+            <h2>Currency Converter</h2>
+        </div>
+        <p class="para">Convert your Dollar Bills into INR and play around with various currencies.</p>
+        <form>
+            <div class="amount">
+             <p>Enter Amount</p>
+             <input value="1" type="text" />
+            </div>
+            <div class="dropDown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/shiny/64.png">
+                        <select  name="from" >
+                            
+                        </select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-right-left"></i>
+                <div class="to"> <p>To</p>
+                    <div class="select-container">
+                     <img src="https://flagsapi.com/IN/shiny/64.png">
+                     <select  name="to" >
+                       
+                     </select>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="msg">1USD = 80INR</div>
+            <button class="exchange-btn">Get Exchange Rate</button>
+            
+        </form>
+    </div>
+
+    <script src="./codes.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
